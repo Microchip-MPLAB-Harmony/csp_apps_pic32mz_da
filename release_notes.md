@@ -8,26 +8,25 @@ nav_order: 99
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
-## Harmony 3 peripheral library application examples for PIC32MZ DA family v3.0.0
+## Harmony 3 peripheral library application examples for PIC32MZ DA family  v3.0.0
 
 ### Development kit and demo application support
 
 Following table provides number of peripheral library examples available for different development kits.
 
-|                                              Development Kits                                                | Number of applications |
-| -------------------------------------------------------------------------------------------------------------| -- |
-| [PIC32MZ Embedded Graphics with Stacked DRAM (DA) Starter Kit (Crypto)](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320010-C) | 24 |
+| Development Kits  | MPLABx applications |
+|:-----------------:|:-------------------:|
 | [PIC32MZ Embedded Graphics with External DRAM (DA) Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320008)    | 4 |
 | [PIC32MZ Embedded Graphics with Stacked DRAM (DA) Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320010)     | 19 |
-|||
+| [PIC32MZ Embedded Graphics with Stacked DRAM (DA) Starter Kit (Crypto)](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320010-C) | 24 |
 
 ### New Features
 
 New features added in this release are as follows:
 
-- Applications migrated from csp repository to this new application repository for PIC32MZ DA family development boards
+- Applications migrated from csp repository to this new application repository for PIC32MZ DA development boards
 
-    
+
 ### Known Issues
 
 The current known issues are as follows:
@@ -37,6 +36,6 @@ The current known issues are as follows:
 ### Development Tools
 
 - [MPLAB® X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
-- [MPLAB® XC32 C/C++ Compiler v2.41](https://www.microchip.com/mplab/compilers)
 - MPLAB® X IDE plug-ins:
   - MPLAB® Harmony Configurator (MHC) v3.6.0
+- [MPLAB® XC32 C/C++ Compiler v2.41](https://www.microchip.com/mplab/compilers)
