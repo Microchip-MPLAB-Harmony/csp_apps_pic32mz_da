@@ -1,0 +1,76 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32mz_da_conf_das_ocmp_compare_mode",
+		"version": "3.0.1",
+		"displayName": "OCMP compare mode Example for PIC32MZ DA Family",
+		"projectName": "ocmp_compare_mode_pic32mz_das_sk",
+		"shortDescription": "This example application shows how to use the OCMP peripheral to generate an active low, active high, and toggle output on compare match.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.40.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.40.0"
+			}
+		],
+		"dfp": {
+			"name": "PIC32MZ-DA_DFP",
+			"semverRange": "^1.2.102"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.5.1"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "PIC32MZ2064DAS169",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "PIC32MZ Embedded Graphics with Stacked DRAM (DA) Starter Kit (Crypto)"
+			],
+			[
+				"Harmony", "Peripherals", "OCMP"
+			],
+			[
+				"Peripherals", "OCMP"
+			]
+		],
+		"peripherals": [
+			"OCMP"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"PIC32MZ2064DAS169",
+			"PIC32MZ DA Family",
+			"OCMP",
+			"Output Compare",
+			"Timer",
+			"PWM"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
