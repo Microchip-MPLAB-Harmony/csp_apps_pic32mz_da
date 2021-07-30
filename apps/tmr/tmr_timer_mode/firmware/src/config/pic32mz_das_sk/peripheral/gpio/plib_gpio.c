@@ -57,28 +57,19 @@
 */
 void GPIO_Initialize ( void )
 {
+
     /* PORTA Initialization */
-
     /* PORTB Initialization */
-
     /* PORTC Initialization */
-
     /* PORTD Initialization */
-
     /* PORTE Initialization */
-
     /* PORTF Initialization */
-
     /* PORTG Initialization */
-
     /* PORTH Initialization */
     LATH = 0x0; /* Initial Latch Value */
     TRISHCLR = 0x1; /* Direction Control */
-
     /* PORTJ Initialization */
-
     /* PORTK Initialization */
-
 
 
     /* PPS Input Remapping */
