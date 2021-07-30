@@ -52,8 +52,8 @@
 #include <stdlib.h>                     // Defines EXIT_FAILURE
 #include "definitions.h"                // SYS function prototypes
 #include <string.h>
-#define LED_ON()                       LED4_Clear()
-#define LED_OFF()                      LED4_Set()
+#define LED_ON()                       LED1_Clear()
+#define LED_OFF()                      LED1_Set()
 
 #define APP_AT24MAC_DEVICE_ADDR             0x0056
 #define APP_AT24MAC_MEMORY_ADDR             0x00

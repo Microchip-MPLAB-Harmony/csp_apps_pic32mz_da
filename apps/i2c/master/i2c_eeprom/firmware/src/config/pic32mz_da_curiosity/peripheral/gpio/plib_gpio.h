@@ -71,14 +71,14 @@
 #define GPIO_RA10_Get()               ((PORTA >> 10) & 0x1)
 #define GPIO_RA10_PIN                  GPIO_PIN_RA10
 
-/*** Macros for LED4 pin ***/
-#define LED4_Set()               (LATCSET = (1<<1))
-#define LED4_Clear()             (LATCCLR = (1<<1))
-#define LED4_Toggle()            (LATCINV= (1<<1))
-#define LED4_OutputEnable()      (TRISCCLR = (1<<1))
-#define LED4_InputEnable()       (TRISCSET = (1<<1))
-#define LED4_Get()               ((PORTC >> 1) & 0x1)
-#define LED4_PIN                  GPIO_PIN_RC1
+/*** Macros for LED1 pin ***/
+#define LED1_Set()               (LATCSET = (1<<1))
+#define LED1_Clear()             (LATCCLR = (1<<1))
+#define LED1_Toggle()            (LATCINV= (1<<1))
+#define LED1_OutputEnable()      (TRISCCLR = (1<<1))
+#define LED1_InputEnable()       (TRISCSET = (1<<1))
+#define LED1_Get()               ((PORTC >> 1) & 0x1)
+#define LED1_PIN                  GPIO_PIN_RC1
 
 
 // *****************************************************************************
@@ -111,6 +111,14 @@ typedef enum
     GPIO_PORT_J = 8,
     GPIO_PORT_K = 9,
 } GPIO_PORT;
+
+typedef enum
+{
+    GPIO_INTERRUPT_ON_MISMATCH,
+    GPIO_INTERRUPT_ON_RISING_EDGE,
+    GPIO_INTERRUPT_ON_FALLING_EDGE,
+    GPIO_INTERRUPT_ON_BOTH_EDGES,
+}GPIO_INTERRUPT_STYLE;
 
 // *****************************************************************************
 /* GPIO Port Pins

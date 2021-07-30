@@ -325,7 +325,7 @@ children:
     - type: Values
       children:
       - type: User
-        attributes: {value: LED4}
+        attributes: {value: LED1}
   - type: String
     attributes: {id: BSP_PIN_17_FUNCTION_TYPE}
     children:

@@ -13,7 +13,7 @@ This example application demonstrates how to use the I2C peripheral to write and
 
 ## Description
 
-This example uses the I2C peripheral library to write an array of values to the I2C Serial EEPROM and verify the value written by reading the values back and comparing it to the value written. The demo uses the internal I2C Serial EEPROM AT24MAC402.
+This example uses the I2C peripheral library to write an array of values to the I2C Serial EEPROM and verify the value written by reading the values back and comparing it to the value written. The demo uses the on-board I2C based Serial EEPROM AT24MAC402.
 
 ## Downloading and building the application
 
@@ -53,5 +53,5 @@ Following table provides LED names:
 
 | Board | LED name |
 | ----- | -------- |
-| [PIC32MZ DA Curiosity Development Kit](https://www.microchip.com/Developmenttools/ProductDetails/EV87D54A) | LED4 (Red) |
+| [PIC32MZ DA Curiosity Development Kit](https://www.microchip.com/Developmenttools/ProductDetails/EV87D54A) | LED1 (Red) |
 |||

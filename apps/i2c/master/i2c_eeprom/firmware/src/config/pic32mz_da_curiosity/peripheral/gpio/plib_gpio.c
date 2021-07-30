@@ -63,28 +63,18 @@ void GPIO_Initialize ( void )
     TRISACLR = 0x400; /* Direction Control */
     ANSELACLR = 0x400; /* Digital Mode Enable */
     CNPUASET = 0xc000; /* Pull-Up Enable */
-
     /* PORTB Initialization */
-
     /* PORTC Initialization */
     LATC = 0x2; /* Initial Latch Value */
     TRISCCLR = 0x2; /* Direction Control */
     ANSELCCLR = 0x2; /* Digital Mode Enable */
-
     /* PORTD Initialization */
-
     /* PORTE Initialization */
-
     /* PORTF Initialization */
-
     /* PORTG Initialization */
-
     /* PORTH Initialization */
-
     /* PORTJ Initialization */
-
     /* PORTK Initialization */
-
 
 
     /* PPS Input Remapping */
