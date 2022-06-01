@@ -1,4 +1,4 @@
-<config configName="pic32mz_da_curiosity" projectName="i2c_eeprom_pic32mz_da_curiosity" configVersion="1.1" device="PIC32MZ2064DAR176" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.2.3">
+<config configName="pic32mz_da_curiosity" projectName="i2c_eeprom_pic32mz_da_curiosity" configVersion="1.1" device="PIC32MZ2064DAR176" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -15,7 +15,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -1425,11 +1425,11 @@
    <generatedFileHashHistoryMap class="java.util.HashMap">
       <entry>
          <file>..\src\config\pic32mz_da_curiosity\stdio\xc32_monitor.c</file>
-         <hash>26e5749db654ed433fd94f6c732ef8600d0cbf5196493374cf111877c02b694e</hash>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_da_curiosity\peripheral\i2c\master\plib_i2c1_master.h</file>
-         <hash>56e29c3a26bc848cd14e294e0c3aa5f501ab739f27c523d50c67bbc97f754cf0</hash>
+         <hash>b55edc69b7977dd2f69688f9be699d73685731e753383fe3ddb9ca4390c9e87c</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_da_curiosity\device.h</file>
@@ -1441,7 +1441,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_da_curiosity\peripheral\evic\plib_evic.c</file>
-         <hash>e1c97d713e9d039ac692a48912d8ddbb83ccd3f6af7b4cd7a985057f1e4f1460</hash>
+         <hash>7494ad881bf8c392ea849d5c2ae7647f587eec65889e38a392ee80f32f418a55</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_da_curiosity\peripheral\clk\plib_clk.c</file>
@@ -1473,7 +1473,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_da_curiosity\peripheral\gpio\plib_gpio.c</file>
-         <hash>7ccf584bed96ff6aa9058633d3dbda04100262abb2dc0f955409b813e776c388</hash>
+         <hash>4bb71502524228cb7b0f644df856a716588e6b6b9e8cbef113ff372bb0083677</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_da_curiosity\p32MZ2064DAR176.ld</file>
@@ -1493,11 +1493,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_da_curiosity\peripheral\gpio\plib_gpio.h</file>
-         <hash>2517c4065b62052da4790a624a7a549e28c71b7379037dd18578222ab408445a</hash>
+         <hash>218847f4196c33a44397a95d075cf82c0b749b6db2da9ff0ffe1d53b4d2c3bec</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_da_curiosity\peripheral\i2c\master\plib_i2c1_master.c</file>
-         <hash>be5d66b4a61515d5f496367b2a31563178430455608ef11eb7ea43e7a3be48e8</hash>
+         <hash>da463cb9d5254484038f296d6d7c20b20eb24721a036364674136c6299926d37</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>
