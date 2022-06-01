@@ -34,20 +34,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 2DAB90E0180061B38DCA2B89315CC561
-- generatedChecksum: F1EF88FF10C9DAA3B91D5FF9EBC61362
+- generatedChecksum: 013B09E39F7FAE92D6B5EA2B2A3A3B58
   logicalPath: config/pic32mz_das_sk/peripheral/evic
   name: plib_evic.c
   physicalPath: peripheral/evic
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F1EF88FF10C9DAA3B91D5FF9EBC61362
-- generatedChecksum: 989D78734D1FF35009A3CACFDC90D893
+  userChecksum: 013B09E39F7FAE92D6B5EA2B2A3A3B58
+- generatedChecksum: DE357FBE50CEE3CC9DD1CB37EDE80A52
   logicalPath: config/pic32mz_das_sk/peripheral/gpio
   name: plib_gpio.c
   physicalPath: peripheral/gpio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 989D78734D1FF35009A3CACFDC90D893
+  userChecksum: DE357FBE50CEE3CC9DD1CB37EDE80A52
 - generatedChecksum: 79333015270BB9AEEB2BC63B6BAD6EC2
   logicalPath: config/pic32mz_das_sk/peripheral/spi/spi_master
   name: plib_spi2_master.c
@@ -55,13 +55,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 79333015270BB9AEEB2BC63B6BAD6EC2
-- generatedChecksum: 7806B30ECAE0D18D08CD583D8775530D
+- generatedChecksum: 71352EF41F6688AD8408E42970B50B66
   logicalPath: config/pic32mz_das_sk/stdio
   name: xc32_monitor.c
   physicalPath: stdio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7806B30ECAE0D18D08CD583D8775530D
+  userChecksum: 71352EF41F6688AD8408E42970B50B66
 - generatedChecksum: 4FE86017E53F43A447C3D0EDD9CF08E3
   logicalPath: config/pic32mz_das_sk
   name: definitions.h
@@ -97,13 +97,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 44A9EFA06536DE1713738D859242B11C
-- generatedChecksum: E4FB748DE1C950CA2391E400918C354B
+- generatedChecksum: D0EF1508998FCACA4FA88583B9577D1E
   logicalPath: config/pic32mz_das_sk/peripheral/gpio
   name: plib_gpio.h
   physicalPath: peripheral/gpio
   security: NON_SECURE
   type: HEADER
-  userChecksum: E4FB748DE1C950CA2391E400918C354B
+  userChecksum: D0EF1508998FCACA4FA88583B9577D1E
 - generatedChecksum: DD36DE6ACD8AE29EFBB17C8C6B4E962E
   logicalPath: config/pic32mz_das_sk/peripheral/spi/spi_master
   name: plib_spi2_master.h
@@ -118,13 +118,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: CFA758C8B7258190473EF7C60C4BA4E9
-- generatedChecksum: FA212DEAE39D4E86EF4E6CB440610FE9
+- generatedChecksum: CAC44960D20AEC03CF4B325A1CD2877C
   logicalPath: config/pic32mz_das_sk
   name: toolchain_specifics.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: FA212DEAE39D4E86EF4E6CB440610FE9
+  userChecksum: CAC44960D20AEC03CF4B325A1CD2877C
 - generatedChecksum: 1AD0B7DCE11613FBA1C2F3365F5352B5
   logicalPath: config/pic32mz_das_sk
   name: p32MZ2064DAS169.ld
