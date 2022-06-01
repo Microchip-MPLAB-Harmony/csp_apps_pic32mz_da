@@ -1,4 +1,4 @@
-<config configName="pic32mz_dag_sk" projectName="dmt_timeout_pic32mz_dag_sk" configVersion="1.1" device="PIC32MZ2064DAG169" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.2.3">
+<config configName="pic32mz_dag_sk" projectName="dmt_timeout_pic32mz_dag_sk" configVersion="1.1" device="PIC32MZ2064DAG169" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -23,7 +23,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -10633,19 +10633,6 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="uart2" name="UART_BRGH_MODE_COMMENT"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;uart2&gt;
-  &lt;uart2 dnOrder=&quot;0&quot; id=&quot;UART_BRGH_MODE_COMMENT&quot;&gt;
-    &lt;Attributes dnOrder=&quot;0&quot;&gt;
-      &lt;String dnOrder=&quot;0&quot; id=&quot;text&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;***&amp;amp;#160;High&amp;amp;#160;Speed&amp;amp;#160;mode&amp;amp;#160;4x&amp;amp;#160;baud&amp;amp;#160;clock&amp;amp;#160;enabled&amp;amp;#160;(BRGH&amp;amp;#160;=&amp;amp;#160;1)&amp;amp;#160;***&lt;/Value&gt;
-      &lt;/String&gt;
-    &lt;/Attributes&gt;
-  &lt;/uart2&gt;
-&lt;/uart2&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="uart2" name="UART_CLOCK_FREQ"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;uart2&gt;
   &lt;uart2 dnOrder=&quot;0&quot; id=&quot;UART_CLOCK_FREQ&quot;&gt;
@@ -10753,19 +10740,19 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_dag_sk\peripheral\uart\plib_uart2.h</file>
-         <hash>46fe38ce181ecbacd00b991479fdc1475e31bd5e2c0f2bb3390e6c4b20501f47</hash>
+         <hash>f3c4a839850aea39e57412278446606debcc73e4365aa7655501100673013fa8</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_dag_sk\peripheral\evic\plib_evic.c</file>
-         <hash>1b046cf4f16ee99ef3941eccbd0addd4b7a0f18fe3d9712d42e8f313a7e4c478</hash>
+         <hash>61611c25c3fd784aeb0dd4f97a6547c0dea2aaa6cd4fb313cd68216f59ddec78</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_dag_sk\peripheral\uart\plib_uart2.c</file>
-         <hash>2d6d325e3e8c9f0edd7ebb50777ee6241a7351d16d5d3bfe281f95478eff4a9a</hash>
+         <hash>ea74624a968ca355b7dbb20b0ac95ae4c40a3ba0c2216b660fe1686faaced62d</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_dag_sk\peripheral\gpio\plib_gpio.c</file>
-         <hash>34a4c08b34e3f5b9e7be35adf55fa5c3f4af17b65dec889ba451a01a116d9a05</hash>
+         <hash>ba8ac4abc19d11e32185eddd71ab6f78de3e166ffd357aedb3338aac37964289</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_dag_sk\peripheral\dmt\plib_dmt.c</file>
@@ -10777,7 +10764,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_dag_sk\stdio\xc32_monitor.c</file>
-         <hash>1957d0040510756cd6a999d6f160cb685fee9aa800c832cfb8f5570b11b3e22b</hash>
+         <hash>02b7c5343c9797c6ffb7d442e0b10098bcfb84deb476c7ceacf79787713ebeca</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_dag_sk\peripheral\coretimer\plib_coretimer.h</file>
@@ -10789,7 +10776,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_dag_sk\peripheral\gpio\plib_gpio.h</file>
-         <hash>d0ed825e9a0788d6b5a68abfd4cbfb063a687706fcbc5d5a54a11c37434dfdab</hash>
+         <hash>d4741ba57d0f5a3c818e71f089c5ee157d950be7375551f91c0cc6e78258ad72</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_dag_sk\exceptions.c</file>
@@ -10797,11 +10784,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_dag_sk\peripheral\dmt\plib_dmt.h</file>
-         <hash>364cd6c56d9714e3b653195b26f5bdb999e08cc5e0b5e7e91cf3f174d7ef1236</hash>
+         <hash>e6699d0fa76185edbb86cbe50941815d43cbe397655d9157ef2d4d5cf2beb978</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_dag_sk\toolchain_specifics.h</file>
-         <hash>5a13891d073d2ad5773c0c59ebe34074f2373103d565643f9e36a3b792feae9c</hash>
+         <hash>84276afca06869943bba17727ff4f41fea61e4f81329ee20a333cafe39562a73</hash>
       </entry>
       <entry>
          <file>..\src\main.c</file>
