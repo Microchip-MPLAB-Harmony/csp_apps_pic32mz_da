@@ -1,4 +1,4 @@
-<config configName="pic32mz_das_sk" projectName="sqi_read_write_pic32mz_das_sk" configVersion="1.1" device="PIC32MZ2064DAS169" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.2.3">
+<config configName="pic32mz_das_sk" projectName="sqi_read_write_pic32mz_das_sk" configVersion="1.1" device="PIC32MZ2064DAS169" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -15,7 +15,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -10012,7 +10012,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\peripheral\gpio\plib_gpio.c</file>
-         <hash>0d2ad46973fe708d947bfee5f292f76f86a7aac2eace710746780c8aecb8d493</hash>
+         <hash>a7f393a550fc38883c3f1683b8fdd7ae9d58d1cde972d07398b6581d0b6b31ca</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\definitions.h</file>
@@ -10040,7 +10040,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\peripheral\gpio\plib_gpio.h</file>
-         <hash>37afe1295e94d211ebb64383be51206508738de23aafc7b6a4d18f9600ba3574</hash>
+         <hash>883096559b78a403bf9214d292a943dba6af55aa38c235c7da388b50faa71e02</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\peripheral\sqi\plib_sqi1.c</file>
@@ -10056,7 +10056,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\toolchain_specifics.h</file>
-         <hash>5a13891d073d2ad5773c0c59ebe34074f2373103d565643f9e36a3b792feae9c</hash>
+         <hash>84276afca06869943bba17727ff4f41fea61e4f81329ee20a333cafe39562a73</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\peripheral\sqi\plib_sqi_common.h</file>
@@ -10064,7 +10064,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\peripheral\evic\plib_evic.c</file>
-         <hash>88cd7bc6d88f3b5ed6a71dad19f9d1ead86fe54f0bc3fe8ccdd17a2f97ec64a4</hash>
+         <hash>e90e748aca0859e4d34d81fa74b43ee944fc92fc8577b85a76c2776b28d3d841</hash>
       </entry>
       <entry>
          <file>..\src\main.c</file>
@@ -10072,7 +10072,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\stdio\xc32_monitor.c</file>
-         <hash>26e5749db654ed433fd94f6c732ef8600d0cbf5196493374cf111877c02b694e</hash>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\peripheral\clk\plib_clk.h</file>
