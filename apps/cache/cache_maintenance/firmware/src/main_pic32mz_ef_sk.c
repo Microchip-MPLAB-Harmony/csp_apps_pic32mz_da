@@ -61,16 +61,15 @@
 #define READ_SIZE               10
 #define BUFFER_SIZE             (2*CACHE_LINE_SIZE)     // Buffer size in terms of cache lines
 
-char __attribute__ ((aligned (16))) messageStart[] = "**** CACHE maintenance demo with UART ****\r\n\
+static char __attribute__ ((aligned (16))) messageStart[] = "**** CACHE maintenance demo with UART ****\r\n\
 **** Type a buffer of 10 characters and observe it echo back ****\r\n\
 **** LED toggles on each time the buffer is echoed ****\r\n";
-char __attribute__ ((aligned (16))) receiveBuffer[BUFFER_SIZE] = {};
-char __attribute__ ((aligned (16))) echoBuffer[BUFFER_SIZE] = {};
-char __attribute__ ((aligned (16))) messageError[BUFFER_SIZE] = "**** UART error occurred ****\r\n";
+static char __attribute__ ((aligned (16))) receiveBuffer[BUFFER_SIZE] = {};
+static char __attribute__ ((aligned (16))) echoBuffer[BUFFER_SIZE] = {};
 
-bool errorStatus  = false;
-bool writeStatus  = false;
-bool readStatus   = false;
+static bool errorStatus  = false;
+static bool writeStatus  = false;
+static bool readStatus   = false;
 
 void APP_WriteCallback(uintptr_t context)
 {

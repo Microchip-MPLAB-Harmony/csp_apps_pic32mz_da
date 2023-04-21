@@ -52,8 +52,8 @@
 #include <stdlib.h>                     // Defines EXIT_FAILURE
 #include "definitions.h"                // SYS function prototypes
 
-volatile bool ac2_triggered = false;
-uintptr_t cmp2_context = 0;
+static volatile bool ac2_triggered = false;
+static uintptr_t cmp2_context = 0;
 
 void cmp2_callback(uintptr_t context)
 {

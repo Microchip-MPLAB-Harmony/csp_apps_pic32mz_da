@@ -52,7 +52,7 @@
 
 
 
-volatile bool switch_pressed = false;
+volatile static bool switch_pressed = false;
 
 void switch_handler( GPIO_PIN pin, uintptr_t context )
 {
