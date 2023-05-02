@@ -47,6 +47,7 @@
 // *****************************************************************************
 
 #include "plib_cmp.h"
+#include "interrupts.h"
 
 // *****************************************************************************
 // *****************************************************************************
@@ -54,7 +55,7 @@
 // *****************************************************************************
 // *****************************************************************************
 
-CMP_OBJECT cmp2Obj;
+volatile static CMP_OBJECT cmp2Obj;
 
 // *****************************************************************************
 // *****************************************************************************
@@ -119,13 +120,14 @@ void CMP_2_CallbackRegister(CMP_CALLBACK callback, uintptr_t context)
     cmp2Obj.context = context;
 }
 
-void COMPARATOR_2_InterruptHandler(void)
+void __attribute__((used)) COMPARATOR_2_InterruptHandler(void)
 {
     IFS4CLR = _IFS4_CMP2IF_MASK; //Clear IRQ flag
 
     if(cmp2Obj.callback != NULL)
     {
-        cmp2Obj.callback(cmp2Obj.context);
+        uintptr_t context = cmp2Obj.context;
+        cmp2Obj.callback(context);
     }
 }
 
