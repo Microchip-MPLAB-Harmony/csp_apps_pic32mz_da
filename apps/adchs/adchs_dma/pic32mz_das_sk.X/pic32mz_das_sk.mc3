@@ -27,7 +27,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.2"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.3"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -8340,7 +8340,7 @@
    <generatedFileHashHistoryMap class="java.util.TreeMap">
       <entry>
          <file>..\src\config\pic32mz_das_sk\definitions.h</file>
-         <hash>aca22387d8ca8f57c0fe8bb9fbc7de066c6f2cfb5a9a58201bd1cdc96264482e</hash>
+         <hash>9a92b02b0e94208768442fc6d21a7815a297121947d8ee52dd710f29ef27847b</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\device.h</file>
@@ -8352,11 +8352,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\initialization.c</file>
-         <hash>c45a483e12b2c35417c5a0dd69aeddaa8dfb92cbcdf15cb30fcfe25abfadff4c</hash>
+         <hash>cf72e8eac80abcedd8e2d7abcdb3fe7b4c66e5db1d761ac7145ac5f8ee3191a3</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\interrupts.c</file>
-         <hash>8242cc683d17fe85a252947d41905f16549d003bd2ffe2c4d774038f27d3f4eb</hash>
+         <hash>d1eb5e77f6cc0ca59a4b6547883574c74eb6281b4eb6d70d095befa8290773fd</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\interrupts.h</file>
@@ -8364,7 +8364,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\p32MZ2064DAS169.ld</file>
-         <hash>82843811088d13727504fcb6b78c0d77b2aa5f24941b066346408101a5666bf9</hash>
+         <hash>8cf65885859b9033ccc87c2df5ac27a0caa7fd74e692bfb7321d3bbfb8c6c474</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\peripheral\adchs\plib_adchs.c</file>
@@ -8380,7 +8380,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\peripheral\clk\plib_clk.c</file>
-         <hash>ef97ef736a1e156334dffde4d5edc1be9d4531f77c1afe3f78694811ade212d5</hash>
+         <hash>576a05977bcf72d3b4fb80ca90002a95d22336fa5fc7fd4d5fe7b07638cb4384</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\peripheral\clk\plib_clk.h</file>
@@ -8408,7 +8408,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\peripheral\gpio\plib_gpio.h</file>
-         <hash>df6d121e8464522528a5a7b03eae4bc3436ee5ed9c9af4ad80563bdecd26dc8e</hash>
+         <hash>108fc503975f63e53fb4ce73a77f7bd0ff77c1bca060b91a7ad75b74c1861488</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\peripheral\tmr\plib_tmr3.c</file>
