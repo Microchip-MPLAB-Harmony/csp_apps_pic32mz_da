@@ -6755,6 +6755,28 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="CONFIG_FPLLICLK"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;CONFIG_FPLLICLK&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;PLL_POSC&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="CONFIG_FPLLIDIV"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;CONFIG_FPLLIDIV&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;DIV_3&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="DCH0_CON_VALUE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DCH0_CON_VALUE&quot;&gt;
@@ -8352,7 +8374,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\initialization.c</file>
-         <hash>cf72e8eac80abcedd8e2d7abcdb3fe7b4c66e5db1d761ac7145ac5f8ee3191a3</hash>
+         <hash>b951954f1dbf156b6778204d09d7dc74d9715c1347c1a6ae2bf9e1404d4aa9cf</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_das_sk\interrupts.c</file>
