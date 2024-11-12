@@ -4,7 +4,7 @@
 
 
 project: adchs_dma
-creation_date: 2024-11-05T15:14:42.636+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2024-11-13T01:00:52.754+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mcc_mode: IDE            # [IDE|Standalone|Headless]
 mcc_version: v5.5.1
@@ -14,7 +14,7 @@ harmony_version: v1.5.3
 compiler: XC32 4.45
 
 modules:
-    - {name: "csp", version: "v3.20.0-rc.1-22-g3016113"}
+    - {name: "csp", version: "v3.20.0"}
 
 packs:
     - {name: "PIC32MZ-DA_DFP", version: "1.5.231"}

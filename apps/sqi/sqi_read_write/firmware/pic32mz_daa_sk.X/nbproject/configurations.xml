@@ -28,14 +28,6 @@
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
-      <logicalFolder displayName="pic32mz_daa_sk.mhc" name="f1" projectFiles="true">
-        <itemPath>../src/config/pic32mz_daa_sk/pic32mz_daa_sk.mhc/core.yml</itemPath>
-        <itemPath>../src/config/pic32mz_daa_sk/pic32mz_daa_sk.mhc/dfp.yml</itemPath>
-        <itemPath>../src/config/pic32mz_daa_sk/pic32mz_daa_sk.mhc/GraphSettings.yml</itemPath>
-        <itemPath>../src/config/pic32mz_daa_sk/pic32mz_daa_sk.mhc/project.yml</itemPath>
-        <itemPath>../src/config/pic32mz_daa_sk/pic32mz_daa_sk.mhc/settings.yml</itemPath>
-        <itemPath>../src/config/pic32mz_daa_sk/pic32mz_daa_sk.mhc/sqi1.yml</itemPath>
-      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32mz_daa_sk/harmony-manifest-success.yml</itemPath>
       <itemPath>sqi_read_write_pic32mz_daa_sk.mc3</itemPath>

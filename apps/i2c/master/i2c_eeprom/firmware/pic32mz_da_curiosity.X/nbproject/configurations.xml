@@ -29,14 +29,6 @@
       </logicalFolder>
     </logicalFolder>
     <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
-      <logicalFolder displayName="pic32mz_da_curiosity.mhc" name="f1" projectFiles="true">
-        <itemPath>../src/config/pic32mz_da_curiosity/pic32mz_da_curiosity.mhc/core.yml</itemPath>
-        <itemPath>../src/config/pic32mz_da_curiosity/pic32mz_da_curiosity.mhc/dfp.yml</itemPath>
-        <itemPath>../src/config/pic32mz_da_curiosity/pic32mz_da_curiosity.mhc/GraphSettings.yml</itemPath>
-        <itemPath>../src/config/pic32mz_da_curiosity/pic32mz_da_curiosity.mhc/i2c1.yml</itemPath>
-        <itemPath>../src/config/pic32mz_da_curiosity/pic32mz_da_curiosity.mhc/project.yml</itemPath>
-        <itemPath>../src/config/pic32mz_da_curiosity/pic32mz_da_curiosity.mhc/settings.yml</itemPath>
-      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32mz_da_curiosity/harmony-manifest-success.yml</itemPath>
       <itemPath>i2c_eeprom_pic32mz_da_curiosity.mc3</itemPath>
@@ -151,7 +143,7 @@
         <property key="use-cci" value="false"/>
         <property key="use-iar" value="false"/>
         <property key="use-indirect-calls" value="false"/>
-      <appendMe value="-Wformat=2 -Werror-implicit-function-declaration -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wno-deprecated-declarations -Wpacked -Wredundant-decls -Wnested-externs -Winline -Wunreachable-code -Wmissing-noreturn"/>
+        <appendMe value="-Wformat=2 -Werror-implicit-function-declaration -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wno-deprecated-declarations -Wpacked -Wredundant-decls -Wnested-externs -Winline -Wunreachable-code -Wmissing-noreturn"/>
       </C32>
       <C32-AR>
         <property key="additional-options-chop-files" value="false"/>
