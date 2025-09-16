@@ -29,9 +29,16 @@
       </logicalFolder>
     </logicalFolder>
     <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
+      <logicalFolder name="i2c_eeprom_pic32mz_da_curiosity_pic32mz_da_curiosity" displayName="i2c_eeprom_pic32mz_da_curiosity_pic32mz_da_curiosity" projectFiles="true">
+        <itemPath>i2c_eeprom_pic32mz_da_curiosity_pic32mz_da_curiosity/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>i2c_eeprom_pic32mz_da_curiosity_pic32mz_da_curiosity/components/core.yml</itemPath>
+          <itemPath>i2c_eeprom_pic32mz_da_curiosity_pic32mz_da_curiosity/components/dfp.yml</itemPath>
+          <itemPath>i2c_eeprom_pic32mz_da_curiosity_pic32mz_da_curiosity/components/i2c1.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32mz_da_curiosity/harmony-manifest-success.yml</itemPath>
-      <itemPath>i2c_eeprom_pic32mz_da_curiosity.mc3</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Linker Files" name="LinkerScript" projectFiles="true">
       <logicalFolder displayName="config" name="f1" projectFiles="true">
@@ -83,7 +90,7 @@
         <targetPluginBoard/>
         <platformTool>pkob4hybrid</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
