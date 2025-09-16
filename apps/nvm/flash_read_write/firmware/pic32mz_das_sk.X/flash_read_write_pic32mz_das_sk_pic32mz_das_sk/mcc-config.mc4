@@ -1,0 +1,47 @@
+configVersion: 1.0.0
+coreVersion: 5.8.2
+device: PIC32MZ2064DAS169
+deviceLibrary:
+  className: com.microchip.mcc.harmony.Harmony3Library
+groupModules: []
+modules:
+- core
+- dfp
+- nvm
+generatedFileHashHistoryMap:
+- file: ..\src\config\pic32mz_das_sk\definitions.h
+  hash: dd5a74e5af89dd6fa4f7bc986c2943285ef71041ecb9da03745e7312739f6076
+- file: ..\src\config\pic32mz_das_sk\device.h
+  hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
+- file: ..\src\config\pic32mz_das_sk\exceptions.c
+  hash: 08af3364c3e5ad8bc07f5300f41ea8ded05493f9a5e9b77947ab3426322671bb
+- file: ..\src\config\pic32mz_das_sk\initialization.c
+  hash: 37dbb44701c051e74f2301c93c46f702bbf0bf41f7a09dc85538563c151034a0
+- file: ..\src\config\pic32mz_das_sk\interrupts.c
+  hash: b5d822b2761e646ea0f95b2cf7cbb318a48917240973aec14908e8d98fa71931
+- file: ..\src\config\pic32mz_das_sk\interrupts.h
+  hash: bd51c3c5264a10459c01fabb79b440af80e049a39110c43f28566cb6a73fe3ed
+- file: ..\src\config\pic32mz_das_sk\p32MZ2064DAS169.ld
+  hash: 8cf65885859b9033ccc87c2df5ac27a0caa7fd74e692bfb7321d3bbfb8c6c474
+- file: ..\src\config\pic32mz_das_sk\peripheral\clk\plib_clk.c
+  hash: abc3e283e563d8d2a8d6fc1daa8289853754e80930b298269871c9c0523d64b1
+- file: ..\src\config\pic32mz_das_sk\peripheral\clk\plib_clk.h
+  hash: 35384f2e13e59b7190bf77f6996baf3ea2377ec42df94979a6f793326def5255
+- file: ..\src\config\pic32mz_das_sk\peripheral\evic\plib_evic.c
+  hash: 44f4a0d192393c9f119185d51edab80d4f32e072d2d0151bf2bcefc901f6bec4
+- file: ..\src\config\pic32mz_das_sk\peripheral\evic\plib_evic.h
+  hash: d1fec6ef0926472bfe0bfa15972adff5caf1a29f8741ce146f90f5efa45db06b
+- file: ..\src\config\pic32mz_das_sk\peripheral\gpio\plib_gpio.c
+  hash: 360e05bf59c0a3fb35b438282bd1871cb7cb5a004ad178bcd42efd0ec5e17cb5
+- file: ..\src\config\pic32mz_das_sk\peripheral\gpio\plib_gpio.h
+  hash: cdfb56efa50a32aa8a6279d710f166ed0e5aa07c1c08926adf524d95cb13b45f
+- file: ..\src\config\pic32mz_das_sk\peripheral\nvm\plib_nvm.c
+  hash: a174d49747d3156f9d8dfd252b22920dfcea7fbded0866394d0f07f072c42688
+- file: ..\src\config\pic32mz_das_sk\peripheral\nvm\plib_nvm.h
+  hash: 811bec3f0166490e6da94b86412bef78f1706b8a208aca5cf55a3b377890cd64
+- file: ..\src\config\pic32mz_das_sk\stdio\xc32_monitor.c
+  hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
+- file: ..\src\config\pic32mz_das_sk\toolchain_specifics.h
+  hash: fd2fc7bbe60706409cc0c0a525825c0194f6f71adc0a89e6310041f06dc2f645
+- file: ..\src\main.c
+  hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
