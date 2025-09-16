@@ -1,0 +1,60 @@
+configVersion: 1.0.0
+coreVersion: 5.8.2
+device: PIC32MZ2064DAG169
+deviceLibrary:
+  className: com.microchip.mcc.harmony.Harmony3Library
+groupModules: []
+modules:
+- cmp
+- core
+- cvr
+- dfp
+- stdio
+- uart2
+generatedFileHashHistoryMap:
+- file: ..\src\config\pic32mz_dag_sk\definitions.h
+  hash: a1aee95a9e3ed40f7f3d65c4b1576b94b82ade22456a5ecdefacb360abea43be
+- file: ..\src\config\pic32mz_dag_sk\device.h
+  hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
+- file: ..\src\config\pic32mz_dag_sk\exceptions.c
+  hash: 08af3364c3e5ad8bc07f5300f41ea8ded05493f9a5e9b77947ab3426322671bb
+- file: ..\src\config\pic32mz_dag_sk\initialization.c
+  hash: 59d61ae44850d3517db6da97c00115c77e1690b0a07d904b70b537289315123d
+- file: ..\src\config\pic32mz_dag_sk\interrupts.c
+  hash: 400c430800a5b9222decd5f120d95b0e245822e0a705783df93f2f143c22becb
+- file: ..\src\config\pic32mz_dag_sk\interrupts.h
+  hash: d6d677899105333d9b87b8939dc0e15e23db07fbba4b36108817d227f739076b
+- file: ..\src\config\pic32mz_dag_sk\p32MZ2064DAG169.ld
+  hash: 54f26b4708a1d9dbbf17663376360d3648a8778711a381f493e8fad526983762
+- file: ..\src\config\pic32mz_dag_sk\peripheral\clk\plib_clk.c
+  hash: c8d23919b7c1818234500eb3ad760d710fc6e20ee5caabdfecba48d5e9427dfd
+- file: ..\src\config\pic32mz_dag_sk\peripheral\clk\plib_clk.h
+  hash: 35384f2e13e59b7190bf77f6996baf3ea2377ec42df94979a6f793326def5255
+- file: ..\src\config\pic32mz_dag_sk\peripheral\cmp\plib_cmp.c
+  hash: a165a0072e56d9b49dd7dbd4f04a2063a5b3932bee0cbeaa2bafb4794f39b0d6
+- file: ..\src\config\pic32mz_dag_sk\peripheral\cmp\plib_cmp.h
+  hash: c5057745d1fec25296a611e9bc05eff3df0cdd9ef380b0a606e59768bcdab37b
+- file: ..\src\config\pic32mz_dag_sk\peripheral\cvr\plib_cvr.c
+  hash: e75bf2be46859db534f70140a9d7d4c4482081176378f58cd96c5514179673c4
+- file: ..\src\config\pic32mz_dag_sk\peripheral\cvr\plib_cvr.h
+  hash: a5c657609f8396c2c1c2f195d929a147f49f560084750f96a87ece4ba58c9d96
+- file: ..\src\config\pic32mz_dag_sk\peripheral\evic\plib_evic.c
+  hash: 8bdba155badbe41a1d36efdaa4a943a38147f1bee92f93791d83aafa5f133f63
+- file: ..\src\config\pic32mz_dag_sk\peripheral\evic\plib_evic.h
+  hash: 658705ab315f53b2d5b99188046a8b34de4ad51daabe47654566ebaa2000fcad
+- file: ..\src\config\pic32mz_dag_sk\peripheral\gpio\plib_gpio.c
+  hash: a6f5515a913ca62fa176e2e563c9e890e9867d6a8131802d6292bd0a484fe2c0
+- file: ..\src\config\pic32mz_dag_sk\peripheral\gpio\plib_gpio.h
+  hash: 108fc503975f63e53fb4ce73a77f7bd0ff77c1bca060b91a7ad75b74c1861488
+- file: ..\src\config\pic32mz_dag_sk\peripheral\uart\plib_uart2.c
+  hash: 9976eb2ffbdf031439519c15ca8d4bfab7889cc07953fad1165d24f09127d85f
+- file: ..\src\config\pic32mz_dag_sk\peripheral\uart\plib_uart2.h
+  hash: f3c4a839850aea39e57412278446606debcc73e4365aa7655501100673013fa8
+- file: ..\src\config\pic32mz_dag_sk\peripheral\uart\plib_uart_common.h
+  hash: 70213cd740b3ff9a591d93ad6aac9493335851db084dd862275effacdebf710d
+- file: ..\src\config\pic32mz_dag_sk\stdio\xc32_monitor.c
+  hash: ebf5bb594a90f0fa360e2a086014a3d15ce37ed290e46e94aa1e4bf9b5610146
+- file: ..\src\config\pic32mz_dag_sk\toolchain_specifics.h
+  hash: fd2fc7bbe60706409cc0c0a525825c0194f6f71adc0a89e6310041f06dc2f645
+- file: ..\src\main_mzda.c
+  hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
