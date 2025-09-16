@@ -52,7 +52,7 @@
 // *****************************************************************************
 
 /* Object to hold callback function and context */
-volatile static ADCHS_CALLBACK_OBJECT ADCHS_CallbackObj[43];
+static volatile ADCHS_CALLBACK_OBJECT ADCHS_CallbackObj[43];
 
 
 
