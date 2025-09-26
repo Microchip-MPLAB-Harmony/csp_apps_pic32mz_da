@@ -3,6 +3,34 @@
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+## Harmony 3 peripheral library application examples for PIC32MZ DA family v3.6.0
+
+### Development kit and demo application support
+
+Following table provides number of peripheral library examples available for different development kits.
+
+| Development Kits  | MPLAB X applications |
+|:-----------------:|:-------------------:|
+| [PIC32MZ Embedded Graphics with Stacked DRAM (DA) Starter Kit](https://www.microchip.com/en-us/development-tool/DM320010) | 20 |
+| [PIC32MZ Embedded Graphics with Stacked DRAM (DA) Starter Kit (Crypto)](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320010-C) | 25 |
+| [PIC32MZ Embedded Graphics with External DRAM (DA) Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320008) | 4 |
+| [PIC32MZ DA Curiosity Development Kit](https://www.microchip.com/Developmenttools/ProductDetails/EV87D54A) | 1 |
+
+### New Features
+
+- None
+
+### Known Issues
+
+- None
+
+### Development Tools
+
+- [MPLAB® X IDE 6.25](https://www.microchip.com/mplab/mplab-x-ide)
+- MPLAB® X IDE plug-ins:
+  - MPLAB® Code Configurator (MCC) 5.6.2
+- [MPLAB® XC32 C/C++ Compiler 4.60](https://www.microchip.com/mplab/compilers)
+
 ## Harmony 3 peripheral library application examples for PIC32MZ DA family v3.5.0
 
 ### Development kit and demo application support
