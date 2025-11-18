@@ -42,7 +42,6 @@
         <itemPath>uart_echo_blocking_pic32mz_das_sk_pic32mz_das_sk/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32mz_das_sk/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"

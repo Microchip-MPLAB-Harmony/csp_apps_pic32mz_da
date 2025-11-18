@@ -50,7 +50,6 @@
         <itemPath>cache_maintenance_pic32mz_dag_sk_pic32mz_dag_sk/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32mz_dag_sk/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
